@@ -91,7 +91,7 @@ public class loginsteps {
 
     }
 
-    @Then("^User check that searchkey add to favorite in profile$")
+    @When("^User check that searchkey add to favorite in profile$")
     public void user_check_that_searchkey_add_to_favorite_in_profile() throws Throwable {
         driver.findElement(By.xpath("/html/body/div[1]/div/section/div[4]/div/div/header/div/div[3]/div[1]/div/span")).click();
         driver.findElement(By.xpath("/html/body/div[1]/div/section/div[4]/div/div/header/div/div[3]/div[1]/span/div/div/ul/li[1]/a")).click();

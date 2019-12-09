@@ -12,7 +12,7 @@ Feature: Login into Mixcloud website
     When User find searchkey and click on it
     When User use Play all
     When User Follow it
-    Then User check that searchkey add to favorite in profile
+    When User check that searchkey add to favorite in profile
     When User delete searchkey from favorite
 
     Examples:
